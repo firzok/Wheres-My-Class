@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/constraint_view"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/black_back"
+    android:gravity="center"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logo_img"
+        android:layout_width="140dp"
+        android:layout_height="170dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/logo2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/select_time_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="48dp"
+        android:text="@string/addTable_tv"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo_img"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <NumberPicker
+        android:id="@+id/number_picker_wgt"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="50dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toEndOf="@+id/select_time_tv"
+        app:layout_constraintTop_toBottomOf="@+id/logo_img"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <Button
+        android:id="@+id/add_time_table_btn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+
+        android:layout_margin="20dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/circular_button"
+        android:onClick="onClickAddTable"
+        android:text="@string/addTable_addTimeTable"
+        android:textColor="@color/colorAccent"
+
+        android:textSize="20sp"
+
+        app:layout_constraintBottom_toTopOf="@+id/select_courses_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/select_time_tv"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/select_courses_btn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+
+        android:layout_margin="20dp"
+        android:background="@drawable/circular_button"
+        android:onClick="onClickSelectCourses"
+        android:text="@string/addTable_selectCourses"
+        android:textColor="@color/colorAccent"
+
+        android:textSize="20sp"
+
+        app:layout_constraintBottom_toTopOf="@+id/view_schedule_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_time_table_btn" />
+
+    <Button
+        android:id="@+id/view_schedule_btn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+
+        android:layout_margin="20dp"
+        android:background="@drawable/circular_button"
+        android:onClick="onClickViewSchedule"
+        android:text="@string/addTable_viewSchedule"
+        android:textColor="@color/colorAccent"
+
+        android:textSize="20sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/select_courses_btn" />
+
+
+</android.support.constraint.ConstraintLayout>

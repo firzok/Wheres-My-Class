@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Wheres my class</string>
+    <string name="import_">Import Timetable</string>
+    <string name="allCourses">Select Course</string>
+    <string name="slideshow_">slideshow</string>
+    <string name="Reminder">Set reminder time</string>
+    <string name="tools_">tools</string>
+
+    <string name="repeat_alarms">Repeat Alarms</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="addTable_addTimeTable">Add Time Table</string>
+    <string name="addTable_tv">Select Alarm Time</string>
+    <string name="addTable_selectCourses">Select Courses</string>
+    <string name="addTable_viewSchedule">View Schedule</string>
+    <string name="setReminderTime">Save</string>
+</resources>

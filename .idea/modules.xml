@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SMD_Project.iml" filepath="$PROJECT_DIR$/SMD_Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/poi-3.12-android-a/poi-3.12-android-a.iml" filepath="$PROJECT_DIR$/poi-3.12-android-a/poi-3.12-android-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/poi-ooxml-schemas-3.12-20150511-a/poi-ooxml-schemas-3.12-20150511-a.iml" filepath="$PROJECT_DIR$/poi-ooxml-schemas-3.12-20150511-a/poi-ooxml-schemas-3.12-20150511-a.iml" />
+    </modules>
+  </component>
+</project>

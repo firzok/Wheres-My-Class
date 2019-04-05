@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#595959</color>
+    <color name="colorPrimaryDark">#121212</color>
+    <color name="colorAccent">#5ff4ea</color>
+    <color name="colorAddTableButton">#00aeff</color>
+
+
+    <color name="bgRowBackgroundAccept">#58D68D</color>
+    <color name="bgRowBackground">#FF0000</color>
+    <color name="itemName">#FFF</color>
+    <color name="description">#FFF</color>
+
+    <color name="ViewScheduleCourseName">#FFF</color>
+    <color name="ViewScheduleDetails">#FFF</color>
+    <color name="imageViews">#FAA003</color>
+</resources>
